@@ -1,0 +1,14 @@
+{
+    "name": "sisacad",
+    "description": "Sistema de uma escola, para aprendizagem",
+    "authors": [
+        {
+            "name": "Alex Lopes",
+            "email": "aclopes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "kevinlebrun/slug.php": "1.*"
+    }
+}
