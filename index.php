@@ -4,6 +4,23 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+<?php
+
+require_once __DIR__."/../vendor/autoload.php";
+$app = new Silex\Application();
+$app['debug'] = TRUE;
+
+$app->register(new Silex\Provider\TwigServiceProvider(),array(
+    'twig.path' => __DIR__."/../views"
+));
+
+$app->get("/ola", function(){
+
+    echo 'Olá Mundo';
+});
+?>
+
+<!--
 <html>
     <head>
         <meta charset="UTF-8">
@@ -19,4 +36,4 @@ and open the template in the editor.
         <p> <h1><a href="cadastro_matricula_form.php">Cadastro de Matricula</a></h1></p>
 
     </body>
-</html>
+</html> -->
