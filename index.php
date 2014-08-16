@@ -8,10 +8,10 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Sistema de Cadastros Escola</title>
     </head>
     <body>
-        <nav>
+        <nav id="menuP">
             <p> <h1><a href="cadastro_aluno_form.php">Cadastro Aluno</a></h1></p>
             <p> <h1><a href="listagem_aluno.php">Listagem Aluno</a></h1></p>
             <p> <h1><a href="cadastro_professor_form.php">Cadastro Professor</a></h1></p>
