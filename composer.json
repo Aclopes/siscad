@@ -1,17 +1,13 @@
 {
-    "name": "sisacad",
-    "description": "Sistema de uma escola, para aprendizagem",
+    "name": "alex/siscad",
+    "description": "Descrição do projeto siscad.",
     "authors": [
         {
-            "name": "Alex Lopes",
+            "name": "Alex Cesar Lopes",
             "email": "aclopes@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.2.8",
-        "kevinlebrun/slug.php": "1.*",
-        "silex/silex":"1.0.*@dev",
-        "twig/twig":">=1.8",
-        "symfony/twig-bridge":"2.1.*"
+
     }
 }
