@@ -8,16 +8,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
         <title>Sistema de Cadastros Escola</title>
     </head>
     <body>
+        <div id="header">Escola</div>
         <nav id="menuP">
-            <p> <h1><a href="cadastro_aluno_form.php">Cadastro Aluno</a></h1></p>
-            <p> <h1><a href="listagem_aluno.php">Listagem Aluno</a></h1></p>
-            <p> <h1><a href="cadastro_professor_form.php">Cadastro Professor</a></h1></p>
-            <p> <h1><a href="listagem_professor_param.php" target="_blank">Listagem Professor</a></h1></p>
-            <p> <h1><a href="cadastro_curso_form.php">Cadastro Curso</a></h1></p>
-            <p> <h1><a href="cadastro_matricula_form.php">Cadastro de Matricula</a></h1></p>
+             <div class="botao"><a href="cadastro_aluno_form.php">Cadastro Aluno</a></div>
+             <div class="botao"><a href="listagem_aluno.php">Listagem Aluno</a></div>
+             <div class="botao"><a href="cadastro_professor_form.php">Cadastro Professor</a></div>
+             <div class="botao"><a href="listagem_professor_param.php" target="_blank">Listagem Professor</a></div>
+             <div class="botao"><a href="cadastro_curso_form.php">Cadastro Curso</a></div>
+             <div class="botao"><a href="cadastro_matricula_form.php">Cadastro de Matricula</a></div>
         </nav>
     </body>
 </html>

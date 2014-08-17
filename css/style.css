@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/08/2014, 11:32:54
+    Author     : alexlopes
+*/
+
+body{background-color: #9fe2ed;}
+
+h1{ font-family: Verdana;}
+
+table{border: 0px;
+      background-color: #6eb79a;
+}
+th{background-color: #96f2da;}
+
+td{background-color: #9fe2ed}
+
+#header{ font-family: fantasy; 
+         background-color: #96f2da;
+         height: 50px;
+         width: 100%;
+         border-color:  #6eb79a;
+         border: 5px;
+         border-radius: 5px;
+         alignment-adjust: central;
+}
+
+#menuP{background-color: #96f2da}
+
+.botao{
+    font-family: Verdana;
+    height: 50px;
+    width: 120px;
+    background-color: #1633d8;
+    border-radius: 5px;
+    margin-top: 2px;
+    
+}
+
+div a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+

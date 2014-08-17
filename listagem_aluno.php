@@ -7,6 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
         <title>Lista de Alunos</title>
     </head>
     <body>
@@ -19,7 +20,7 @@ and open the template in the editor.
         $cabec = "<th>CFP</th><th>Nome</th><th>Endereço</th><th>complemento</th>"
                 . "<th>cep</th><th>Bairro</th><th>Cidade</th><th>estado</th><th>telefone</th>       </tr>";
         //imprime
-        echo '<table border="1" sumary = "esta tabela mostra a lista de alunos" > <tr>';
+        echo '<table sumary = "esta tabela mostra a lista de alunos" > <tr>';
         echo $cabec;
         
         while ($dados = mysql_fetch_array($result)) {
@@ -31,7 +32,6 @@ and open the template in the editor.
         if (!$result) {
             echo 'Fodeu alguma coisa: ' . mysql_error();
         } else {
-            echo 'Cadastro OK<br> <br>';
             echo '<p><a href="index.php">Voltar para o Inicio</a></h1></p><br>';
             echo '<p><a href="cadastro_aluno_form.php">Voltar para o cadastro de Aluno</a></p>';
         }
