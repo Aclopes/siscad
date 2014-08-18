@@ -33,7 +33,7 @@ body{background-color: #479BDA;}
   transition: all 0.4s ease-out;
 }
 
-.open.circle {
+.open {
   opacity: 1;
 
   -webkit-transform: scale(1);
