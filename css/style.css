@@ -8,7 +8,38 @@ and open the template in the editor.
     Author     : alexlopes
 */
 
+@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+
 body{background-color: #9fe2ed;}
+
+.circular-menu {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto 0;
+  position: relative;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  opacity: 0;
+
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -transform: scale(0);
+
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.open.circle {
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -transform: scale(1);
+}
 
 h1{ font-family: Verdana;}
 
@@ -17,7 +48,7 @@ table{border: 0px;
 }
 th{background-color: #96f2da;}
 
-td{background-color: #9fe2ed}
+td{background-color: #9feeff}
 
 #header{ font-family: fantasy; 
          background-color: #96f2da;
