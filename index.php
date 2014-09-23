@@ -28,7 +28,7 @@ and open the template in the editor.
                 <a href="cadastro_matricula_form.php">Cadastro de Matricula</a>
                 <a href="" class="fa fa-linkedin fa-2x"></a>
             </div>
-             <a href="" class="menu-button fa fa-bars fa-2x"></a>
+            <a href="" class="menu-button fa fa-bars fa-2x"></a>
         </nav>
     </body>
 </html>
