@@ -17,8 +17,8 @@ and open the template in the editor.
             Escola
             <div><a href="https://github.com/Aclopes" class="fa fa-github fa-2x"></a></div>
         </div>
-        <nav class="circular-menu">
-            <div class=" circle">
+        <nav class="menuP">
+            <div>
                 <a href="index.php" class="fa fa-home fa-2x">Home</a>
                 <a href="cadastro_aluno_form.php" >Cadastro Aluno</a>
                 <a href="listagem_aluno.php">Lista Alunos</a>
