@@ -99,10 +99,9 @@ td{background-color: #9feeff}
          alignment-adjust: central;
 }
 
-/*
-#menuP{background-color: #96f2da}
+.menuP{background-color: #96f2da}
 
-.botao{
+.botao{ 
     font-family: Verdana;
     height: 50px;
     width: 120px;
@@ -119,6 +118,4 @@ div a{
 div a:hover{
     color: #ff0000;
     text-decoration: none;
-}
-
-*/
+}   
